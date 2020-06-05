@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Sport Activities</string>
+    <string name="nav_header_title">Sportovní aktivity</string>
+    <string name="nav_header_subtitle">Lukáš Chytílek</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Nastavení</string>
+
+    <string name="menu_home">Domů</string>
+    <string name="menu_add_sport">Přidat aktivitu</string>
+
+    <string name="sport_activity">Sportovní aktivita</string>
+    <string name="name">Název</string>
+    <string name="location">Lokace</string>
+    <string name="duration">Délka v minutách</string>
+    <string name="db_type">Databáze</string>
+    <string name="save">Uložit</string>
+    <string name="saved">Uloženo</string>
+
+    <string name="fill_name">Vyplňte název</string>
+    <string name="fill_location">Vyplňte lokaci</string>
+    <string name="fill_duration">Vyplňte časovou délku</string>
+    <string name="name_exists">Jméno již existuje</string>
+
+    <string name="delete">Smazat</string>
+    <string name="delete_record">Chcete opravdu smazat <b>%1$s</b>?</string>
+
+    <string name="failed_read_firebase">Nastala chyba během čtení dat z databáze Firebase</string>
+</resources>

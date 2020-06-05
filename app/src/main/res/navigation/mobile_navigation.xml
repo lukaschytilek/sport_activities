@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_list">
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="cz.chytilek.sportactivities.ui.ListOfSportActivitiesFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_list_of_sport_activities">
+
+        <action
+            android:id="@+id/action_ListFragment_to_AddFragment"
+            app:destination="@id/nav_add">
+
+            <argument
+                android:name="sport"
+                app:argType=""/>
+
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_add"
+        android:name="cz.chytilek.sportactivities.ui.AddSportActivityFragment"
+        android:label="@string/menu_add_sport"
+        tools:layout="@layout/fragment_add_sport_activity">
+
+        <action
+            android:id="@+id/action_AddFragment_to_ListFragment"
+            app:destination="@id/nav_list" />
+
+    </fragment>
+
+</navigation>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "304914821474",
+    "firebase_url": "https://work-applications.firebaseio.com",
+    "project_id": "work-applications",
+    "storage_bucket": "work-applications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304914821474:android:0e42f615148965427dbc3b",
+        "android_client_info": {
+          "package_name": "cz.chytilek.sportactivities"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304914821474-bbdss7lbabai7pf5aphvsuboudbltnlo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO1MTOCz_uk2SuJHHb6f-g55vNzREEoG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304914821474-bbdss7lbabai7pf5aphvsuboudbltnlo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
